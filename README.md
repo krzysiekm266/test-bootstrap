@@ -1,2 +1,2 @@
-# starter-bootstrap
-Starter project for bootstrap + parcel.
+# test-bootstrap
+Test playground for bootstrap
