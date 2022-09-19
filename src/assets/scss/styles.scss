@@ -24,20 +24,20 @@
 //
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
 
-// Toggle global options
-$enable-gradients: true;
-$enable-shadows: true;
+// // Toggle global options
+// $enable-gradients: true;
+// $enable-shadows: true;
 
-$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+// $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 
-// Customize some defaults
-// $body-color: #333;
-// $body-bg: #fff;
-// $border-radius: .4rem;
-// $success: rgb(56, 214, 8);
+// // Customize some defaults
+// // $body-color: #333;
+// // $body-bg: #fff;
+// // $border-radius: .4rem;
+// // $success: rgb(56, 214, 8);
 
-//Your custom variables.
-@import "./abstracts/variables";
+// //Your custom variables.
+// @import "./abstracts/variables";
 
 // Required**********************************
 @import "~bootstrap/scss/functions";
@@ -54,6 +54,7 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 @import "~bootstrap/scss/images";
 @import "~bootstrap/scss/containers";
 @import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/helpers";
 @import "~bootstrap/scss/tables";
 @import "~bootstrap/scss/forms";
 @import "~bootstrap/scss/buttons";
@@ -79,9 +80,6 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 @import "~bootstrap/scss/spinners";
 @import "~bootstrap/scss/offcanvas"; // Requires transitions
 @import "~bootstrap/scss/placeholders";
-
-// Helpers
-// @import "helpers";
 
 // Utilities
 @import "~bootstrap/scss/utilities/api";
