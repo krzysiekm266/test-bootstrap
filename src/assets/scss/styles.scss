@@ -23,21 +23,8 @@
 // Option 2
 //
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
-
-// // Toggle global options
-// $enable-gradients: true;
-// $enable-shadows: true;
-
-// $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-
-// // Customize some defaults
-// // $body-color: #333;
-// // $body-bg: #fff;
-// // $border-radius: .4rem;
-// // $success: rgb(56, 214, 8);
-
 // //Your custom variables.
-// @import "./abstracts/variables";
+ @import "./abstracts/variables";
 
 // Required**********************************
 @import "~bootstrap/scss/functions";
