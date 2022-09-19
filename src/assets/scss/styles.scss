@@ -39,7 +39,7 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 //Your custom variables.
 @import "./abstracts/variables";
 
-// Required
+// Required**********************************
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/maps";
@@ -49,7 +49,7 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/root";
 @import "~bootstrap/scss/reboot";
-//
+//*******************************************
 @import "~bootstrap/scss/type";
 @import "~bootstrap/scss/images";
 @import "~bootstrap/scss/containers";
