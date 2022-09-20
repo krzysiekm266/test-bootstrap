@@ -71,10 +71,16 @@
 // Utilities
 @import "~bootstrap/scss/utilities/api";
 
-
 //
-// Custom styles
-//
-
-// @import "icon-list";
+.bg-img-conf {
+    background-image: url('../img/bg/bg1.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $body-bg;
+    background-blend-mode: multiply;
+}
+.navbar-bg-color-body {
+    background-color: $body-bg;
+}
 
