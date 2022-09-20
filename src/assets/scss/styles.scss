@@ -81,6 +81,10 @@
     background-blend-mode: multiply;
 }
 .navbar-bg-color-body {
-    background-color: $body-bg;
+    background: $body-bg;
+}
+.card-img-top {
+    object-fit: cover;
+    aspect-ratio: 1/.9;
 }
 
