@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <div class="container-fluid ">
+    <header class="container-fluid ">
         <div class="container ">
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-color-body ">
-                <div class="container-fluid">
-                    <a class="navbar-brand text-primary" href="#">Dream-machine company</a>
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-color-body p-0">
+                <div class="container-fluid ">
+                    <a class="navbar-brand navbar-brand-text bg-primary p-2" href="#">Dream-machine inc.</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -41,7 +41,9 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Action1</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
@@ -51,13 +53,15 @@
             </nav>
 
         </div>
-    </div>
+    </header>
+    <!-- Banner under nav with img -->
     <div class="container-fluid bg-img-conf " style="height: 200px;">
         <div class="container h-100 d-flex flex-column align-items-start justify-content-center ps-4">
             <h3 class="text-light fs-2 fw-bold">Desing your pc.</h3>
             <p class="text-start text-white-50 fs-5">We build your dream pc for you.</p>
         </div>
     </div>
+    <!-- Category cards -->
     <div class="container my-5">
         <div class="row gap-4 justify-content-center">
             <div class="card bg-dark text-light col-12 col-md-4 col-lg-3 p-0 border-0">
@@ -98,6 +102,20 @@
         </div>
 
     </div>
+    <!-- Footer -->
+    <footer class="container-fluid mb-4 ">
+        <div class="container ">   
+            <ul class="list-group list-group-flush text-center border-0 col-6 col-lg-3">
+                <li class="list-group-item footer-bg-color fs-3 fw-bold bg-primary p-0">Menu</li>
+                <li class="list-group-item footer-nav-bg-color p-1 "><a class="footer-link" href="">An item</li></a> 
+                <li class="list-group-item footer-nav-bg-color  p-1 "><a class="footer-link" href="">An second item</li></a>
+                <li class="list-group-item footer-nav-bg-color  p-1 "><a class="footer-link" href="">An thred item</li></a>
+                <li class="list-group-item footer-nav-bg-color  p-1 "><a class="footer-link" href="">An fourth item</li></a>
+                <li class="list-group-item footer-nav-bg-color  p-1 "><a  class="footer-link" href="">An fivth item</li></a>
+            </ul> 
+            <p class="text-white-50  text-center">Created by krzysiek 2022</p>              
+        </div>
+    </footer>
     <script type="module" src="./assets/js/main.js"></script>
 </body>
 

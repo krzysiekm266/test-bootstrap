@@ -27,7 +27,7 @@
  @import "./abstracts/variables";
 
 // Required**********************************
-@import "~bootstrap/scss/functions";
+@import  "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/maps";
 //Modify maps here
@@ -82,6 +82,15 @@
 }
 .navbar-bg-color-body {
     background: $body-bg;
+}
+.navbar-brand-text {
+    color: black;
+}
+.footer-nav-bg-color {
+    background: $body-bg;
+}
+.footer-link {
+    text-decoration: none;
 }
 .card-img-top {
     object-fit: cover;
