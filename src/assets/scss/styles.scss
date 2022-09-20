@@ -86,6 +86,10 @@
 .navbar-brand-text {
     color: black;
 }
+a.navbar-brand-conf:hover {
+    color: black;
+    cursor: pointer;
+}
 .footer-nav-bg-color {
     background: $body-bg;
 }
@@ -96,4 +100,11 @@
     object-fit: cover;
     aspect-ratio: 1/.9;
 }
-
+.mygrid {
+    display: grid;
+    place-content: top stretch;
+}
+.grid-footer {
+    display: grid;
+    place-content: center stretch;
+}
